@@ -1,0 +1,181 @@
+.sidebar {
+    width: 230px;
+    box-shadow: 0 0 10px black;
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+    /*height: 100vh;*/
+}
+
+.sidebarName {
+    padding: 10px;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    opacity: 0.7;
+    border-bottom: 0.5px solid #696e72;
+
+
+}
+
+.nameImg {
+    width: auto;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.nameText {
+    color: white;
+
+}
+
+.sidebarDown {
+    padding: 5px;
+}
+
+.searchBox {
+    margin-top: 20px;
+    display: flex;
+}
+
+.search {
+    border-radius: 10px 0 0 10px;
+    height: 35px;
+    width: 80%;
+    padding: 10px;
+}
+
+.searchBot {
+    height: 100%;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 0 10px 10px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+
+.dropDownBt {
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #343a40;
+}
+
+
+.dropDownBt:hover {
+    border-radius: 5px;
+    background-color: #696e72;
+}
+
+.buttonsActive, .buttonsActive:hover {
+    background-color: blue;
+}
+
+.bodyFlex {
+    display: flex;
+}
+
+.tibbleBoxBody {
+    width: 100%;
+
+}
+
+.searchInputBox {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #696e72;
+    align-items: center;
+
+}
+
+.countryBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.countrySelectBt {
+    margin-bottom:10px ;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.countrySelectBtAdd:hover{
+    background-color: #7c858d;
+}
+
+.countrySelectBtAdd:active{
+    background-color: white;
+}
+
+.dropDownBox, .dropDownBoxRegion, .dropDownBoxCity{
+    position: absolute;
+    margin-top: 50px;
+    display:none ;
+    box-shadow: 0 0 10px black;
+    overflow: auto;
+    width: 200px;
+    max-height: 200px;
+    min-height: 0;
+    background-color: white;
+}
+
+
+.dropDownBoxItem {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: #ffffff;
+}
+
+.regionBox {
+    display: flex;
+}
+
+.regionInoutBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.regionBoxBt {
+    height: 50%;
+}
+
+.tibbleBox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #696e72;
+}
+
+.nameTibbleBox {
+    background-color: white;
+    width: 90%;
+    display: flex;
+
+}
+
+.nameTibble {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 33.39%;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+}
